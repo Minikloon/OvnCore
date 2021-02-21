@@ -1,1 +1,3 @@
-main: net.minikloon.ovn.gameservershared;
+main: net.minikloon.ovn.ovncore.OvnCore
+name: OvnCore
+version: 1.0
