@@ -20,6 +20,10 @@ public class OvnCore extends JavaPlugin {
         getServer().getOnlinePlayers().forEach(sidebarManager::setupSidebar);
     }
 
+    public SidebarManager getSidebarManager() {
+        return sidebarManager;
+    }
+
     public static OvnCore getInstance() {
         return INSTANCE;
     }
